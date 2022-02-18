@@ -25,5 +25,5 @@ print(phrase.isupper())
 # 判断是否全是小写，是则返回 True，否则返回 false
 print(phrase.islower())
 
-# 列： 先将字符全部转换为小写，然后检查是否全是小写
+# 列子： 先将字符全部转换为小写，然后检查是否全是小写
 print(phrase.lower().islower())  # 正确 返回True 
