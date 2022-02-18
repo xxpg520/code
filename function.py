@@ -9,7 +9,8 @@ hello("小白",87)
 
 # 练习
 def add(numb1,numb2):
-    # print(numb1 + numb2)
-    return numb1 + numb2  # 返回值
+    print(numb1 + numb2)
+    return None 
 
-print(add(2,3))
+value = add(3,4)
+print(value)
