@@ -27,3 +27,8 @@ print(phrase.islower())
 
 # 列子： 先将字符全部转换为小写，然后检查是否全是小写
 print(phrase.lower().islower())  # 正确 返回True 
+
+# 中括号用法
+phrase = "Hello Mr.White"
+#         0123456
+print(phrase[0])  
