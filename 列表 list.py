@@ -83,3 +83,6 @@ print(scores.index(60)) # 2
 
 # 函数 count(值) 找出列表中有多少个值
 print(scores.count(60)) # 3
+
+# 函数len(列表) 找出有几个值
+print(len(scores))
