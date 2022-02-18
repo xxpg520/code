@@ -32,3 +32,9 @@ print(phrase.lower().islower())  # 正确 返回True
 phrase = "Hello Mr.White"
 #         0123456
 print(phrase[0])  
+
+# 查找函数 index()  返回最前面的位数
+print(phrase.index("l"))
+
+# 替换函数 replace("X","Y")    X 被 y 替换
+print(phrase.replace("H","h"))
