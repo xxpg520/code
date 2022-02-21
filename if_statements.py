@@ -72,7 +72,7 @@ else:
 #     我给你1000元
 # 否则
 # 你给我100元
-score = 100
+score = 90
 rainy = True
 if score == 100 or not(rainy):
     print("我给你1000元")
