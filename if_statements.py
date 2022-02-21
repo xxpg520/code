@@ -31,7 +31,7 @@ else:
 #       我就给你200元
 # 否则
 #       你就给我300元
-score = int(input("请输入你的成绩:"))
+score = 50
 if score == 100:
     print("我给你100元")
 elif score >= 80 :
@@ -40,3 +40,15 @@ elif 80> score >= 60 :
     print("我给你100元")
 else:
     print("你给我300")
+
+# 4.
+# 如果 你考100分 且 今天下雨
+#       我就给你1000元
+# 否则
+#       你给我100元
+score = 100
+rainy = True
+if score == 100 and rainy :
+    print("我给你1000元")
+else:
+    print("你给我100元")
