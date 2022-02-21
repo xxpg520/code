@@ -47,8 +47,20 @@ else:
 # 否则
 #       你给我100元
 score = 100
-rainy = True
+rainy = False
 if score == 100 and rainy :
+    print("我给你1000元")
+else:
+    print("你给我100元")
+
+# 5.
+# 如果 你考100分 或 今天下雨
+#       我就给你1000元
+# 否则
+#       你给我100元
+score = 99
+rainy = False
+if score == 100 or rainy :
     print("我给你1000元")
 else:
     print("你给我100元")
