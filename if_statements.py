@@ -5,6 +5,8 @@
 # 如果 我肚子饿
 #      我就去吃饭
 from importlib.resources import read_binary
+from sys import flags
+from turtle import Turtle
 
 
 hungry = True
@@ -58,9 +60,21 @@ else:
 #       我就给你1000元
 # 否则
 #       你给我100元
-score = 99
+score = 90
 rainy = False
 if score == 100 or rainy :
+    print("我给你1000元")
+else:
+    print("你给我100元")
+
+# 6.
+# 如果 你考100分 或 没有下雨
+#     我给你1000元
+# 否则
+# 你给我100元
+score = 100
+rainy = True
+if score == 100 or not(rainy):
     print("我给你1000元")
 else:
     print("你给我100元")
