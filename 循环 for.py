@@ -18,4 +18,5 @@ print(pow(2,6))  #2的5此
 
 def power(num1,num2):
     result = num1
-    for num3 in range()
+    for num3 in range():
+        print(num3)
