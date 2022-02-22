@@ -106,4 +106,4 @@ def max_num(num1,num2,num3):
     else:
         return num3
 print(max_num(33,3,5))
->>>>>>> ac2dd20bbafdbe8cae42f5cb36e2d7d7b3dff08e
+
