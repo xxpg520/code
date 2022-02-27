@@ -1,7 +1,4 @@
-from tempfile import tempdir
-from wsgiref.util import guess_scheme
-
-
+""" 简易版猜数字游戏 """
 print("----------------猜数字---------")
 guess = int(input("不妨猜猜小甲鱼现在心里想的数字:"))
 
