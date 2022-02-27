@@ -2,12 +2,12 @@
 改进要求：
 1.猜错的时候提示用户当前输入比答案大了还是笑了
 2.程序应该提供多次机会给用户猜测，专业点来讲就是程序需要重复运行某些代码。
-
+3.每次程序产生的答案是随机的
 """
-nice = 8
-jishu = 0
+import random # 调用模块
+nice = random.randint(1,99) #randint(1,9) 产生一个随机整数范围在1~9
 guess = None
-while guess != 8:
+while guess != nice :
     guess = int(input("猜猜小甲鱼心里想的是什么数字："))
     
     if guess == nice:
