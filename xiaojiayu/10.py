@@ -34,12 +34,20 @@
 #     print(i)
 
 """ break 和 continue """
-# 例
-bingo = "小甲鱼是帅哥"
-answer = input("请输入小甲鱼最想听的一句话:")
-while True:
-    if answer == bingo:
-        break
-    answer = input("抱歉，错了，请重新输入（答案正确才能退出游戏！ :)")
-print("哎呦，帅哦~")
-print("您真是小甲鱼肚子里的蛔虫啊^_^")
+# 例1
+# bingo = "小甲鱼是帅哥"
+# answer = input("请输入小甲鱼最想听的一句话:")
+# while True:
+#     if answer == bingo:
+#         break
+#     answer = input("抱歉，错了，请重新输入（答案正确才能退出游戏！ :)")
+# print("哎呦，帅哦~")
+# print("您真是小甲鱼肚子里的蛔虫啊^_^")
+
+# 例2
+for i in range(10):
+    if i%2 != 0:  # i%2 有余数则为真
+        print(i)
+        continue # 跳过本次循环 不运行下面2行
+    i += 2
+    print(i)
