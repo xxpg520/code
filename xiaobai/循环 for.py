@@ -51,10 +51,10 @@ for 变量 in 字串or列表:
 # 2*2*2*2*2*2
 
 
-def power(base_num,pow_num): # 定义2个变量,base_num 用来代表基数,pow_num代表次数
-    result = base_num           # 用result 保存base_num中的值2
-    for index in range(pow_num -1):     # pow_num - 1 用来控制次数 本例中 5-1   2*2*2*2*2 *符号有4个
-        result = result * base_num      #
-    return result                   # 用return返回result保存的最终结果
+# def power(base_num,pow_num): # 定义2个变量,base_num 用来代表基数,pow_num代表次数
+#     result = base_num           # 用result 保存base_num中的值2
+#     for index in range(pow_num -1):     # pow_num - 1 用来控制次数 本例中 5-1   2*2*2*2*2 *符号有4个
+#         result = result * base_num      #
+#     return result                   # 用return返回result保存的最终结果
 
-print(power(2,5))                   # 打印调用函数power(2,5)结果
+# print(power(2,5))                   # 打印调用函数power(2,5)结果
