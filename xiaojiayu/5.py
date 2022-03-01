@@ -7,9 +7,10 @@
 import random # 调用模块
 nice = random.randint(1,99) #randint(1,9) 产生一个随机整数范围在1~9
 guess = None
-while guess != nice :
+add =3
+while guess != nice and add :
     guess = int(input("猜猜小甲鱼心里想的是什么数字："))
-    
+    add -= 1
     if guess == nice:
         print("哇草，你是小甲鱼心里的蛔虫吗？")
         print("哼，猜中了也没有奖励")
@@ -18,4 +19,6 @@ while guess != nice :
             print("哥，大了大了~~")
         else :
             print("嘿，小了！小了")
+if add == 0 :
+    print("三次机会用完啦。")
 print("游戏结束，不玩了~~")
