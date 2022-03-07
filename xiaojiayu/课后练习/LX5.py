@@ -4,4 +4,4 @@
 
 """ 出现用户输入错误的类型的时候，提醒用户重新输入 """
 temp = input("请输入一个数字:")
-print(tpye(temp))
+print(type(temp))
