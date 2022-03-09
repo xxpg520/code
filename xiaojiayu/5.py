@@ -6,12 +6,13 @@
 """
 import random # 调用模块
 nice = random.randint(1,99) #randint(1,9) 产生一个随机整数范围在1~9
-guess = None
+guess = 0
 add =3
 while guess != nice and add :
-    guess = int(input("猜猜小甲鱼心里想的是什么数字："))
+    guess = input("猜猜小甲鱼心里想的是什么数字：")
+    add -= 1
     if guess.isdigit():
-        add -= 1
+        guess = int(guess)
         if guess == nice:
             print("哇草，你是小甲鱼心里的蛔虫吗？")
             print("哼，猜中了也没有奖励")
