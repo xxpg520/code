@@ -6,36 +6,19 @@
 # temp = input("请输入一个数字:")
 # print(temp.isdigit())
     
-
-import random
-
-times = 3
-secret = random.randint(1,10)
-
-print('------------------我爱鱼C工作室------------------')
-guess = 0
-print("不妨猜一下小甲鱼现在心里想的是哪个数字：", end=" ")
-
-while (guess != secret) and (times > 0):
-    temp = input()
-    
-    if temp.isdigit():
-        guess = int(temp)
-        if guess == secret:
-            print("我草，你是小甲鱼心里的蛔虫吗？！")
-            print("哼，猜中了也没有奖励！")
+""" 判断闰年 """
+number = None
+while number != 0:
+    number = input("请输入一个年份：")
+    if number.isdigit():
+        number = int(number)
+        if number % 4 == 0 and number %100 != 0 or number % 400 == 0:
+            print("是润年")
         else:
-            if guess > secret:
-                print("哥，大了大了~~~")
-            else:
-                print("嘿，小了，小了~~~")
-            if times > 1:
-                print("再试一次吧：", end='')
-            else:
-                print("机会用光咯T_T")
+            print("该年份不是润年")
     else:
-        print("抱歉，您的输入有误，请输入一个整数：", end='')
-
-    times = times - 1 # 用户每输入一次，可用机会就-1
-
-print("游戏结束，不玩啦^_^")
+        print("请输入正确的数字：")
+# elif number % 400 == 0:
+#     print("该年份是闰年")
+# else:
+#     print("该年份不是闰年")
